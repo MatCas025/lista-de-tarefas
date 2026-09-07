@@ -1,0 +1,37 @@
+.container {
+  margin-top: 20px;
+}
+
+.contador {
+  margin-bottom: 20px;
+  text-align: center;
+  color: #555;
+}
+
+.lista {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.tarefa {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 12px 15px;
+  margin-bottom: 10px;
+
+  background-color: #f8f8f8;
+  border-radius: 8px;
+}
+
+.botaoExcluir {
+  border: none;
+  padding: 6px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+
+  background-color: #e74c3c;
+  color: white;
+}

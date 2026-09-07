@@ -1,36 +1,81 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Lista de Tarefas
 
-## Getting Started
+Uma aplicação simples de lista de tarefas desenvolvida com **Next.js 15**, **React**, **TypeScript**, **Jest** e **Testing Library**.
 
-First, run the development server:
+## 🚀 Funcionalidades
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+- Exibir uma lista de tarefas simulada;
+- Adicionar novas tarefas;
+- Excluir tarefas;
+- Contar a quantidade atual de tarefas;
+
+## 🛠️ Tecnologias utilizadas
+
+- Next.js 15
+- React 19
+- TypeScript
+- Jest
+- Testing Library
+- CSS Modules
+
+## 📂 Estrutura do projeto
+
+```text
+src/
+├── app/
+│   ├── page.tsx
+│   └── page.module.css
+│
+├── components/
+│   ├── ListaDeTarefas.tsx
+│   ├── ListaDeTarefas.module.css
+│   ├── NovaTarefa.tsx
+│   └── NovaTarefa.module.css
+│
+├── data/
+│   └── tarefas.ts
+│
+├── hooks/
+│   └── useContadorTarefas.ts
+│
+└── tests/
+    ├── ListaDeTarefas.test.tsx
+    ├── NovaTarefa.test.tsx
+    └── useContadorTarefas.test.ts
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🧪 Testes Unitários
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Os testes cobrem:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- Contagem de tarefas;
+- Adição de uma nova tarefa;
+- Validação para impedir tarefas vazias;
+- Renderização das tarefas na tela;
+- Exibição da quantidade correta de tarefas.    
 
-## Learn More
+## 💻 Como executar o projeto
 
-To learn more about Next.js, take a look at the following resources:
+Clone o repositório:
+```bash
+git clone COLOQUE_AQUI_O_LINK_DO_SEU_REPOSITORIO
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Instale as dependências:
+```bash
+npm install
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Execute o projeto:
+```bash
+npm run dev
+```
 
-## Deploy on Vercel
+Abra no navegador:
+```text
+http://localhost:3000
+```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### 👨‍💻 Autor
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+* Projeto desenvolvido por Matheus de Castro, como atividade prática para estudo de Next.js, TypeScript e testes unitários.
