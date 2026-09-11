@@ -54,6 +54,15 @@ Os testes cobrem:
 - Renderização das tarefas na tela;
 - Exibição da quantidade correta de tarefas.    
 
+## 💻 Executando os testes
+
+Para executar a suíte de testes:
+
+```bash
+npm test
+```
+
+
 ## 💻 Como executar o projeto
 
 Clone o repositório:
