@@ -18,7 +18,8 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-
+  color: #333;
+  
   padding: 12px 15px;
   margin-bottom: 10px;
 

@@ -5,8 +5,10 @@
 }
 
 .input {
+  color: #333;
   flex: 1;
   padding: 10px 12px;
+  background-color: white;
 
   border: 1px solid #ccc;
   border-radius: 6px;
